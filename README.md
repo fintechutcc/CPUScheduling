@@ -9,7 +9,7 @@
 ## th.ac.utcc.computer.cpuscheduling.algorithm
 คลาสที่สำคัญได้แก่ 
 - SchedulingAlgorithm ที่เป็น abstract class หากต้องการสร้างอัลกอริทึมเพิ่มเติม ควรเป็นคลาสลูกของคลาสนี้
-- FCFSAlgorithm เป็นตัวอย่างของ First Come First Serve ที่จัดลำดับของโพรเซสให้ CPU จาก Arrival Time
+- FCFSAlgorithm เป็นคลาสลูกของ SchedulingAlgorithm ซึ่งเป็นตัวอย่างของ First Come First Serve ที่จัดลำดับของโพรเซสให้ CPU จาก Arrival Time
 
 ## th.ac.utcc.computer.cpuscheduling.example
 มีตัวอย่างของ FCFSScheduler เอาไว้ให้ หากมีการสร้างอัลกอริทึมอื่น สามารถดัดแปลงตัวอย่างนี้เพื่อใช้ทดสอบอัลกอริทึมใหม่ได้
