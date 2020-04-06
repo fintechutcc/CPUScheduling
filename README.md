@@ -2,7 +2,9 @@
 ตัวอย่างอย่างง่ายสำหรับ CPU Scheduling โครงสร้างของแพ็กเกจที่สำคัญมีดังนี้
 
 ## th.ac.utcc.computer.cpuscheduling
-คลาสที่สำคัญได้แก่ NonPreemptiveCPUScheduler ที่ได้สร้างเป็นต้นแบบอย่างง่ายสำหรับ Non-Preemptive Scheduler สามารถคำนวณ Waiting Time, Turn Around time และ Average Time ได้
+คลาสที่สำคัญได้แก่ 
+- CPUProcess ควรดู constructor ของคลาสนี้ให้เข้าใจ เพราะจำเป็นต้องสร้าง CPUProcess ขึ้นมา ตัวอย่างการใช้งานอยู่ใน FCFSScheduler
+- NonPreemptiveCPUScheduler ที่ได้สร้างเป็นต้นแบบอย่างง่ายสำหรับ Non-Preemptive Scheduler สามารถคำนวณ Waiting Time, Turn Around time และ Average Time ได้
 
 ## th.ac.utcc.computer.cpuscheduling.algorithm
 คลาสที่สำคัญได้แก่ 
